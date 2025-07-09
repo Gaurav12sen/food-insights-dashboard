@@ -2,6 +2,10 @@
 
 A comprehensive Streamlit dashboard that analyzes food products data from India using the OpenFoodFacts API. The dashboard provides insights into nutritional content, brands, categories, and additives across the Indian food market.
 
+## 🌐 Live Demo
+
+Check out the live dashboard: [Food Insights Dashboard](https://food-insider.streamlit.app/)
+
 ## 🌟 Features
 
 - **Live Data**: Fetches real-time data from OpenFoodFacts API
@@ -21,8 +25,8 @@ A comprehensive Streamlit dashboard that analyzes food products data from India 
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd openfoodfacts-dashboard
+git clone https://github.com/yourusername/food-insights-dashboard.git
+cd food-insights-dashboard
 ```
 
 2. Install dependencies:
@@ -72,10 +76,8 @@ The dashboard will be available at `http://localhost:8501`
 ## 🛠️ Project Structure
 
 ```
-openfoodfacts-dashboard/
+food-insights-dashboard/
 ├── data/                    # Data storage
-│   ├── raw/                # Raw JSON data
-│   └── processed/          # Processed CSV files
 ├── src/                    # Source code
 │   ├── config.py          # Configuration settings
 │   ├── data_fetch.py      # API interaction
@@ -86,6 +88,12 @@ openfoodfacts-dashboard/
 ├── requirements.txt       # Project dependencies
 └── README.md             # Documentation
 ```
+
+## 🚀 Deployment
+
+The dashboard is deployed using [Streamlit Cloud](https://streamlit.io/cloud). You can:
+- Access the live demo at [https://food-insider.streamlit.app/](https://food-insider.streamlit.app/)
+- Deploy your own instance by following [Streamlit's deployment guide](https://docs.streamlit.io/streamlit-cloud/get-started/deploy-an-app)
 
 ## 📝 Notes
 
